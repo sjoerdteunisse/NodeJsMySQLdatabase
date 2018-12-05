@@ -1,19 +1,14 @@
 {
-  "name": "les1",
+  "name": "databaseexample",
   "version": "1.0.0",
   "description": "",
-  "main": "firstfile.js",
-  "dependencies": {
-    "express": "^4.16.4",
-    "morgan": "^1.9.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.7"
-  },
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.16.0"
+  }
 }
